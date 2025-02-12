@@ -1,1 +1,45 @@
-<body>hi</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Ces-r</title>
+</head>
+<body class="overflow-hidden">
+    <!-- Landing Page -->
+    <div id="landing-page" class="h-screen flex flex-col justify-center items-center relative">
+        <div class="text-center">
+            <h1 class="text-5xl font-bold" id="name">César</h1>
+            <p class="text-[14px] italic mt-0 opacity-80" id="welcome">Computer Science</p>
+        </div>
+        <!-- Arrow Vector -->
+        <img
+            id="arrow"
+            alt="down"
+            class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce opacity-80 cursor-pointer"
+            src="static/arrow.svg"
+            height="64"
+            width="64"
+            onclick="secondsection()"
+        />
+    </div>
+
+    <!-- Part 2 of the Page -->
+    <div id="second-section" class="h-screen flex items-center justify-center bg-white-200">
+        <div id="sec2text">
+            <h1 class="text-5xl font-bold">hello world</h1>
+        
+        </div>
+        
+    </div>
+    </div>
+    
+    
+
+</body>
+
+<script src="main.js"></script>
+</html>
+
